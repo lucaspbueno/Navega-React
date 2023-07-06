@@ -25,7 +25,7 @@ export default function TopicsGestao({ filterText }) {
                 (el.secondTopic && el.secondTopic.topic.toLowerCase().includes(filterText?.toLowerCase() || ''))
             )
             .map((el, index) => (
-              <Topic key={index} topic={el} filter={ filterText } />
+              <Topic key={index} topic={el} filter={ filterText } type="Gestão"/>
             ))}
         </ul>
       </details>
