@@ -8,7 +8,7 @@ export default function Aside() {
     setFilter(value);
   }
   return (
-    <aside className="p-8 bg-zinc-700 h-screen text-white">
+    <aside className="h-screen w-1/4 p-8 bg-zinc-700 text-white">
       <input
         type="text"
         name="filter"
@@ -18,7 +18,7 @@ export default function Aside() {
         id="input-filter"
         placeholder="Filter"
       />
-      <ul className="menu text-3xl scroll overflow-y-auto">
+      <ul className="menu text-3xl">
         <TopicsGestao filterText={ filter } />
         <TopicsCorporativo filterText={ filter } />
       </ul>

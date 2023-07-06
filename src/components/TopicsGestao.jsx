@@ -6,8 +6,12 @@ export default function TopicsGestao({ filterText }) {
   const history = useHistory();
 
   const handleClick = ({ target }) => {
-    history.replace('/');
-    history.push(target.textContent)
+    if (history.location.pathname === `/documentação/${target.textContent}`) {
+      history.replace('/');
+    } else {
+      history.replace('/');
+      history.push(`/documentação/${target.textContent}`)
+    }
   };
   return (
     <li>

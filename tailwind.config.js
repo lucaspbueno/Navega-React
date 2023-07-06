@@ -11,7 +11,10 @@ module.exports = {
       },
       height: {
         '1349px': '1349px',
-      }
+      },
+      colors: {
+        'other-blue': '#0e142f',
+      },
     },
   },
   plugins: [require("daisyui")],

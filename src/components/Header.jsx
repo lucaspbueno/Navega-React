@@ -13,6 +13,7 @@ export default function Header() {
           <li><a href="sistema">CONHEÇA O SISTEMA</a></li>
           <li><a href="institucional">INSTITUCIONAL</a></li>
           <li><a href="sobre-nos">SOBRE NÓS</a></li>
+          <li><a href="documentação">DOCUMENTAÇÃO</a></li>
           <li><a href="https://api.whatsapp.com/send/?phone=5538991529547&text&type=phone_number&app_absent=0"
               class="btn-contato">CONTATO<i class="bi bi-whatsapp"></i></a></li>
         </ul>
